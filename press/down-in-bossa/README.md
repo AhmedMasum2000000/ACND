@@ -3,6 +3,8 @@
 **ACND × Ash Army · Down In Bossa · Profi Music · out 30.10.2026**
 Listen: https://profimusic.lnk.to/DownInBossa
 
+**Watch online:** https://ahmedmasum2000000.github.io/ACND/down-in-bossa/
+
 Promo kit for the release: 15 vertical reels for TikTok / Instagram Reels / Shorts, each with the ACND and Ash Army logos and as a clean version without logos, plus 5 feed banners.
 
 - Reels: 1080×1920, 30 fps, 15.7 s, H.264 + AAC, about 12 MB each
