@@ -6,6 +6,8 @@ A scroll-driven journey through an ASCII/pixel world that reacts to the pointer,
 and, if the visitor opts in, to live audio. Six acts, one continuous scroll, one animated character
 grid behind all of it.
 
+**Release kit:** reels and banners for *Down In Bossa* (ACND × Ash Army, Profi Music) are in [`press/down-in-bossa/`](press/down-in-bossa/), ready to download.
+
 ```
 npm install
 npm run dev      # http://localhost:5173
