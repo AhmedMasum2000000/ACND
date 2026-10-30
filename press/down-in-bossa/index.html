@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Watch and download the Down In Bossa reels and banners by ACND × Ash Army (Profi Music): 15 vertical reels with and without logos, ready for TikTok and Instagram.">
+<meta property="og:title" content="Down In Bossa reels — ACND × Ash Army">
+<meta property="og:description" content="15 vertical reels and 5 banners for Down In Bossa (Profi Music). Watch, download, post. #BossaFreeze">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://ahmedmasum2000000.github.io/ACND/down-in-bossa/banners/post1.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<title>Down In Bossa Reels</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: a dark club-poster wall — title band, freeze trio pinned first, then a dense grid of phone-shaped players */
+:root {
+  --bg: #0b0910;
+  --panel: #15121c;
+  --line: #2a2434;
+  --fg: #f3eff8;
+  --muted: #a39cb2;
+  --accent: #ff5a28;      /* the orange diamond in the ACND crest */
+  --violet: #8f7bff;
+  --display: "Syne", "Arial Black", system-ui, sans-serif;
+  --body: "Inter", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: grid; gap: 10px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(34px, 7vw, 68px); line-height: .95; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+h1 em { font-style: normal; color: var(--accent); }
+.lede { max-width: 64ch; color: var(--muted); margin: 0; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; padding-block: 14px; border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.seg button { font: 500 13px var(--body); color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 7px 14px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.seg button:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 34px 0 4px; }
+h2 + p { margin: 0 0 16px; color: var(--muted); max-width: 70ch; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 22px 18px; }
+.card { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.phone { position: relative; aspect-ratio: 9 / 16; max-width: 100%; border-radius: 14px; overflow: hidden; background: #000; border: 1px solid var(--line); }
+.phone video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tag { position: absolute; left: 10px; top: 10px; font: 500 11px var(--mono); letter-spacing: .08em; background: rgba(11, 9, 16, .78); color: var(--fg); padding: 4px 8px; border-radius: 6px; }
+.tag.freeze { background: var(--accent); color: #140a05; }
+.meta { display: grid; gap: 2px; min-width: 0; }
+.meta b { font-weight: 600; }
+.meta span { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.cap { font-size: 13px; color: var(--muted); white-space: pre-line; overflow-wrap: anywhere; border-left: 2px solid var(--line); padding-left: 10px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { display: inline-block; text-decoration: none; font: 500 13px var(--body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+.btn.primary { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.btn:disabled { opacity: .5; cursor: default; }
+.status { font: 12px var(--mono); color: var(--violet); min-height: 1em; }
+.banners { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+.banners img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 10px; border: 1px solid var(--line); display: block; }
+.steps { display: grid; gap: 8px; margin: 0; padding-left: 20px; color: var(--muted); max-width: 72ch; }
+.steps b { color: var(--fg); font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.listen { color: var(--fg); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">ACND × Ash Army · Profi Music · out 30.10.2026</div>
+    <h1>Down In <em>Bossa</em> reels</h1>
+    <p class="lede">15 vertical reels for TikTok and Instagram, each in a version with the ACND and Ash Army logos and a clean version without logos. 1080×1920, 15.7 s, with the track. Tap a reel to play it, save it, or copy its caption. <a class="listen" href="https://profimusic.lnk.to/DownInBossa" rel="noopener">Listen to Down In Bossa</a>.</p>
+  </header>
+
+  <div class="bar">
+    <div class="seg" role="group" aria-label="Logo version">
+      <button id="v-logos" aria-pressed="true">With logos</button>
+      <button id="v-clean" aria-pressed="false">No logos</button>
+    </div>
+    <span class="note">Save downloads the MP4 · 1080×1920 · 15.7 s</span>
+  </div>
+
+  <h2>#BossaFreeze</h2>
+  <p>The trend set. At 0:45 the kick and bass cut out for one bar: everyone freezes, then the drop hits and the frame bursts into the kaleidoscope. Post these first, with the official Profi Music sound starting at 0:39.6.</p>
+  <div class="grid" id="freeze"></div>
+
+  <h2>Spam reels</h2>
+  <p>Twelve more cuts over five sections of the song, so the algorithm tests every drop.</p>
+  <div class="grid" id="spam"></div>
+
+  <h2>Banners</h2>
+  <p>Five 1080×1350 feed posts, with logos and without.</p>
+  <div class="banners" id="banners"></div>
+
+  <h2>How to post for the trend</h2>
+  <ol class="steps">
+    <li><b>Use the official sound.</b> Add Down In Bossa from the TikTok or Instagram music library and mute the video's own audio, so every view and copy counts toward the song's sound page.</li>
+    <li><b>Start it at 0:39.6.</b> The freeze then lands 5.9 s in, the same moment as in these reels.</li>
+    <li><b>Day one:</b> post #BossaFreeze Trend, Template and POV. On day three, post a clip of ACND and Ash Army doing the freeze yourselves.</li>
+    <li><b>Pin a comment</b> on each post: “the freeze is at 0:45 — hold still till it drops 🧊 #BossaFreeze”.</li>
+  </ol>
+</div>
+
+<script>
+const DATA = {"reels": [{"num": "13", "title": "#BossaFreeze · Trend", "segment": "0:39.6 · freeze at 5.9 s", "freeze": true, "caption": "the beat stops. you freeze. 🧊 then it drops.\nDown In Bossa — ACND × Ash Army @asharmymusic · Profi Music\n#BossaFreeze #DownInBossa #AfroHouse #freezechallenge #ACND", "logos": {"url": "logos/DownInBossa_Reel13_BossaFreeze_Trend.mp4", "name": "DownInBossa_Reel13_BossaFreeze_Trend.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel13_BossaFreeze_Trend_NoLogo.mp4", "name": "DownInBossa_Reel13_BossaFreeze_Trend_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel13_BossaFreeze_Trend.jpg"}, {"num": "15", "title": "#BossaFreeze · Green-screen template", "segment": "0:39.6 · 3·2·1 countdown", "freeze": true, "caption": "3 · 2 · 1 · freeze 🧊 green screen this one.\nDown In Bossa — ACND × Ash Army · Profi Music\n#BossaFreeze #greenscreen #DownInBossa #AfroHouse", "logos": {"url": "logos/DownInBossa_Reel15_BossaFreeze_Template.mp4", "name": "DownInBossa_Reel15_BossaFreeze_Template.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel15_BossaFreeze_Template_NoLogo.mp4", "name": "DownInBossa_Reel15_BossaFreeze_Template_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel15_BossaFreeze_Template.jpg"}, {"num": "14", "title": "#BossaFreeze · POV", "segment": "0:39.6 · freeze at 5.9 s", "freeze": true, "caption": "POV: you didn't freeze on the bossa break 😭\nDown In Bossa — ACND × Ash Army\n#BossaFreeze #DownInBossa #AfroHouse #pov #ravetok", "logos": {"url": "logos/DownInBossa_Reel14_BossaFreeze_POV.mp4", "name": "DownInBossa_Reel14_BossaFreeze_POV.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel14_BossaFreeze_POV_NoLogo.mp4", "name": "DownInBossa_Reel14_BossaFreeze_POV_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel14_BossaFreeze_POV.jpg"}, {"num": "11", "title": "Pyro Hits", "segment": "0:39.6 · freeze built in", "freeze": true, "caption": "silence for one bar… then fireworks 🎆\nDown In Bossa — ACND × Ash Army\n#BossaFreeze #DownInBossa #AfroHouse #festival", "logos": {"url": "logos/DownInBossa_Reel11_PyroHits.mp4", "name": "DownInBossa_Reel11_PyroHits.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel11_PyroHits_NoLogo.mp4", "name": "DownInBossa_Reel11_PyroHits_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel11_PyroHits.jpg"}, {"num": "01", "title": "Wait For The Drop", "segment": "0:23.9 build → drop at 7.8 s", "freeze": false, "caption": "wait for it… 🌀\nDown In Bossa — ACND × Ash Army · out now on Profi Music\n#DownInBossa #AfroHouse #AfroHouse2026 #drop", "logos": {"url": "logos/DownInBossa_Reel01_WaitForTheDrop.mp4", "name": "DownInBossa_Reel01_WaitForTheDrop.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel01_WaitForTheDrop_NoLogo.mp4", "name": "DownInBossa_Reel01_WaitForTheDrop_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel01_WaitForTheDrop.jpg"}, {"num": "02", "title": "Chrome Kaleido", "segment": "0:31.7 · first drop", "freeze": false, "caption": "bossa soul. afro house pulse. 🔷\nDown In Bossa — ACND × Ash Army\n#DownInBossa #AfroHouse #kaleidoscope #AfroHouse2026", "logos": {"url": "logos/DownInBossa_Reel02_ChromeKaleido.mp4", "name": "DownInBossa_Reel02_ChromeKaleido.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel02_ChromeKaleido_NoLogo.mp4", "name": "DownInBossa_Reel02_ChromeKaleido_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel02_ChromeKaleido.jpg"}, {"num": "03", "title": "Mono Rave", "segment": "0:47.4 · cuts on every beat", "freeze": false, "caption": "ACND × Ash Army — Down In Bossa 🖤\n#DownInBossa #AfroHouse #rave #techhouse", "logos": {"url": "logos/DownInBossa_Reel03_MonoRave.mp4", "name": "DownInBossa_Reel03_MonoRave.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel03_MonoRave_NoLogo.mp4", "name": "DownInBossa_Reel03_MonoRave_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel03_MonoRave.jpg"}, {"num": "04", "title": "Purple Void", "segment": "0:00.4 · intro groove", "freeze": false, "caption": "the groove before the storm 💜\nDown In Bossa — ACND × Ash Army · Profi Music\n#DownInBossa #AfroHouse #deephouse #AfroHouse2026", "logos": {"url": "logos/DownInBossa_Reel04_PurpleVoid.mp4", "name": "DownInBossa_Reel04_PurpleVoid.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel04_PurpleVoid_NoLogo.mp4", "name": "DownInBossa_Reel04_PurpleVoid_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel04_PurpleVoid.jpg"}, {"num": "05", "title": "POV 3AM", "segment": "0:27.8 · drop at 3.9 s", "freeze": false, "caption": "POV: the bossa drop hits at 3AM\nDown In Bossa — ACND × Ash Army\n#DownInBossa #AfroHouse #pov #clubbing", "logos": {"url": "logos/DownInBossa_Reel05_POV3AM.mp4", "name": "DownInBossa_Reel05_POV3AM.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel05_POV3AM_NoLogo.mp4", "name": "DownInBossa_Reel05_POV3AM_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel05_POV3AM.jpg"}, {"num": "06", "title": "Golden Hour", "segment": "1:03.0", "freeze": false, "caption": "golden hour afro house 🌅 música para la hora dorada.\nDown In Bossa — ACND × Ash Army · Profi Music\n#DownInBossa #AfroHouse #sunset #musicadeplaya #IbizaSunset", "logos": {"url": "logos/DownInBossa_Reel06_GoldenHour.mp4", "name": "DownInBossa_Reel06_GoldenHour.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel06_GoldenHour_NoLogo.mp4", "name": "DownInBossa_Reel06_GoldenHour_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel06_GoldenHour.jpg"}, {"num": "07", "title": "Dance Mirror", "segment": "1:46.1 · drop at 3.9 s", "freeze": false, "caption": "this song on repeat all weekend 🔁\nDown In Bossa — ACND × Ash Army\n#DownInBossa #AfroHouse #dance #AfroHouse2026", "logos": {"url": "logos/DownInBossa_Reel07_DanceMirror.mp4", "name": "DownInBossa_Reel07_DanceMirror.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel07_DanceMirror_NoLogo.mp4", "name": "DownInBossa_Reel07_DanceMirror_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel07_DanceMirror.jpg"}, {"num": "08", "title": "Word Stack", "segment": "1:50.0 · second drop", "freeze": false, "caption": "DOWN. IN. BOSSA. ⚡\nACND × Ash Army · Profi Music\n#DownInBossa #AfroHouse #AfroHouse2026", "logos": {"url": "logos/DownInBossa_Reel08_WordStack.mp4", "name": "DownInBossa_Reel08_WordStack.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel08_WordStack_NoLogo.mp4", "name": "DownInBossa_Reel08_WordStack_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel08_WordStack.jpg"}, {"num": "09", "title": "Grid", "segment": "2:05.7 · last drop", "freeze": false, "caption": "one song, nine moods 🔲\nDown In Bossa — ACND × Ash Army\n#DownInBossa #AfroHouse #festival #AfroHouse2026", "logos": {"url": "logos/DownInBossa_Reel09_Grid.mp4", "name": "DownInBossa_Reel09_Grid.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel09_Grid_NoLogo.mp4", "name": "DownInBossa_Reel09_Grid_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel09_Grid.jpg"}, {"num": "10", "title": "Ink Reveal", "segment": "1:42.2 build → drop at 7.8 s", "freeze": false, "caption": "out now. 🌀 ACND × Ash Army — Down In Bossa · Profi Music\n#DownInBossa #AfroHouse #newmusic #ProfiMusic", "logos": {"url": "logos/DownInBossa_Reel10_InkReveal.mp4", "name": "DownInBossa_Reel10_InkReveal.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel10_InkReveal_NoLogo.mp4", "name": "DownInBossa_Reel10_InkReveal_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel10_InkReveal.jpg"}, {"num": "12", "title": "Gothic Mirror", "segment": "1:57.8", "freeze": false, "caption": "dark side of the bossa 🖤🩸\nDown In Bossa — ACND × Ash Army\n#DownInBossa #AfroHouse #darkaesthetic #gothtok", "logos": {"url": "logos/DownInBossa_Reel12_GothicMirror.mp4", "name": "DownInBossa_Reel12_GothicMirror.mp4"}, "clean": {"url": "no_logo/DownInBossa_Reel12_GothicMirror_NoLogo.mp4", "name": "DownInBossa_Reel12_GothicMirror_NoLogo.mp4"}, "poster": "posters/DownInBossa_Reel12_GothicMirror.jpg"}], "banners": [{"url": "banners/post1.png", "name": "post1.png", "alt": "Out now banner", "logos": true}, {"url": "banners/post2.png", "name": "post2.png", "alt": "Bossa soul banner", "logos": true}, {"url": "banners/post3.png", "name": "post3.png", "alt": "ACND × Ash Army banner", "logos": true}, {"url": "banners/post4.png", "name": "post4.png", "alt": "Two versions banner", "logos": true}, {"url": "banners/post5.png", "name": "post5.png", "alt": "Golden hour banner", "logos": true}, {"url": "banners/post1_nologo.png", "name": "post1_nologo.png", "alt": "Out now banner without logos", "logos": false}, {"url": "banners/post2_nologo.png", "name": "post2_nologo.png", "alt": "Bossa soul banner without logos", "logos": false}, {"url": "banners/post3_nologo.png", "name": "post3_nologo.png", "alt": "ACND × Ash Army banner without logos", "logos": false}, {"url": "banners/post4_nologo.png", "name": "post4_nologo.png", "alt": "Two versions banner without logos", "logos": false}, {"url": "banners/post5_nologo.png", "name": "post5_nologo.png", "alt": "Golden hour banner without logos", "logos": false}]};
+let version = "logos";
+
+function el(tag, attrs = {}, kids = []) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "text") n.textContent = v; else if (k.startsWith("on")) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);
+  }
+  for (const c of kids) n.append(c);
+  return n;
+}
+
+async function copyText(text, status) {
+  try { await navigator.clipboard.writeText(text); status.textContent = "Caption copied."; }
+  catch { status.textContent = "Copy blocked here: select the caption text and copy it."; }
+}
+
+function reelCard(r) {
+  const file = version === "logos" ? r.logos : r.clean;
+  const status = el("div", { class: "status", "aria-live": "polite" });
+  const video = el("video", { src: file.url, poster: r.poster, controls: "", playsinline: "", preload: "none", loop: "" });
+  const phone = el("div", { class: "phone" }, [video, el("span", { class: "tag" + (r.freeze ? " freeze" : ""), text: r.num })]);
+  const cap = el("div", { class: "cap", text: r.caption });
+  return el("article", { class: "card" }, [
+    phone,
+    el("div", { class: "meta" }, [el("b", { text: r.title }), el("span", { text: r.segment })]),
+    cap,
+    el("div", { class: "actions" }, [
+      el("a", { class: "btn primary", href: file.url, download: file.name, text: "Save video" }),
+      el("button", { class: "btn", type: "button", onclick: () => copyText(r.caption, status), text: "Copy caption" }),
+    ]),
+    status,
+  ]);
+}
+
+function render() {
+  if (!DATA) return;
+  for (const [id, list] of [["freeze", DATA.reels.filter(r => r.freeze)], ["spam", DATA.reels.filter(r => !r.freeze)]]) {
+    const box = document.getElementById(id);
+    box.replaceChildren(...list.map(reelCard));
+  }
+  const b = document.getElementById("banners");
+  b.replaceChildren(...DATA.banners.filter(x => x.logos === (version === "logos")).map(x => {
+    const status = el("div", { class: "status", "aria-live": "polite" });
+    return el("div", { class: "card" }, [
+      el("img", { src: x.url, alt: x.alt, loading: "lazy" }),
+      el("div", { class: "actions" }, [el("a", { class: "btn", href: x.url, download: x.name, text: "Save image" })]),
+      status,
+    ]);
+  }));
+  document.getElementById("v-logos").setAttribute("aria-pressed", String(version === "logos"));
+  document.getElementById("v-clean").setAttribute("aria-pressed", String(version !== "logos"));
+}
+
+document.getElementById("v-logos").addEventListener("click", () => { version = "logos"; render(); });
+document.getElementById("v-clean").addEventListener("click", () => { version = "clean"; render(); });
+render();
+
+</script>
+
+</body>
+</html>

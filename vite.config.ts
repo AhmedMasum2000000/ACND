@@ -1,3 +1,5 @@
+import { cpSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import { build404, buildFallback, buildHeadTags, buildRobots, buildSitemap } from './src/lib/seo';
@@ -25,6 +27,22 @@ const seoPlugin = (): Plugin => ({
   },
 });
 
+/**
+ * Publishes the Down In Bossa release kit at /down-in-bossa/.
+ *
+ * The media lives once in the repo, under press/down-in-bossa/ where the
+ * GitHub README links to it; this copies that folder (gallery page, reels,
+ * banners) into the build as-is so the same files are also playable on the site.
+ */
+const pressKit = (): Plugin => ({
+  name: 'acnd-press-kit',
+  apply: 'build',
+  writeBundle(options) {
+    const outDir = options.dir ?? resolve(__dirname, 'dist');
+    cpSync(resolve(__dirname, 'press/down-in-bossa'), resolve(outDir, 'down-in-bossa'), { recursive: true });
+  },
+});
+
 /*
   Root-relative by default, which is what Vercel, Netlify and any plain static
   host want. A GitHub Pages *project* site serves from `/<repo>/` instead, so
@@ -38,7 +56,7 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 
 export default defineConfig({
   base,
-  plugins: [react(), seoPlugin()],
+  plugins: [react(), seoPlugin(), pressKit()],
   build: {
     target: 'es2020',
     cssCodeSplit: false,
