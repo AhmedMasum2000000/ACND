@@ -1,0 +1,6 @@
+yt-dlp>=2025.1.1        # download a reel/short from a URL (uses YOUR browser cookies for Instagram)
+instaloader>=4.16       # profile stats (views, likes, captions) with YOUR saved session
+pytesseract>=0.3.10     # on-screen text (needs the tesseract binary)
+faster-whisper>=1.0.0   # spoken words, runs offline on CPU
+numpy
+Pillow
